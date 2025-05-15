@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    height: 100%;
+    background-image: linear-gradient(to right, #E19821, #E05722);
+
+}
+h1{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-size-adjust: 120px;
+    color: rgb(181, 248, 248);
+}
+h2{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-size-adjust: 65px;
+    color: rgb(67, 174, 216);
+}
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-size-adjust:  26px;
+    color: #3d3d3d;
+}
