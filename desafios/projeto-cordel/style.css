@@ -1,5 +1,103 @@
 @charset "UTF-8";
 
-p{
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --font01:Verdana, Geneva, Tahoma, sans-serif;
+    --font02:"Montserrat Alternates", sans-serif;
+    --font03:"Estonia", cursive;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: lightgray;
+}
+
+header{
+    font-family: var(--font01);
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+header > h1{
+    font-size: 8vw;
+    padding-top: 30px;
+    font-variant: small-caps;
+    font-family: var(--font01);
+}
+
+header > p {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+header  a{
+
+    text-decoration: none;
+    color: white;
+    
+
+}
+
+header  a:hover{
+    /*background-color: white;*/
+    padding: 4px;
+    /*color: black;*/
+    border-radius: 9px;
+    font-weight: bolder;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
     
 }
+
+section p{
+    font-family: var(--font02);
+    font-size: 2.5vw;
+    line-height: 1.3em; 
+    
+}
+
+
+
+section.norm{
+    background-color: white;
+    padding-left: 40px;
+}
+
+section.img{
+    background-color: grey;
+    color: white;
+
+}
+
+section.img > p{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.164);
+    border-radius: 6px;
+}
+
+footer{
+    background-color: black;
+    padding: 6px;
+    color: white;
+    text-align: center;
+}
+
+ footer  strong{
+    font-weight: bolder;
+    padding: 2px;
+    letter-spacing: 2px;
+}
+
